@@ -1,0 +1,29 @@
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-family: "Baloo Da 2", cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* End of Common Styles */
+
+/* Section One */
+.section-1 {
+  width: 100%;
+  height: 65vh;
+  background: linear-gradient(
+      to top,
+      rgba(38, 38, 38, 0.7),
+      rgba(38, 38, 38, 0.6)
+    ),
+    url(images/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+/* End of Section One */
