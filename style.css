@@ -90,7 +90,7 @@ html {
 }
 
 .nav-list-item:hover {
-    border-bottom: 0.5rem solid #2790c3;
+    border-bottom: 0.5rem solid #0070ba;
 }
 
 .nav-list-link {
@@ -112,5 +112,26 @@ html {
 
 .nav-list-item:hover .nav-list-link i {
     transform: rotateZ(180deg);
+}
+
+.navbar-btn {
+    width: 8rem;
+    padding: 0.7rem;
+    margin: 0.3rem;
+    border-radius: 3rem;
+    border: 0.1rem solid #0070ba;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar-btn:nth-child(1) {
+    background-color: transparent;
+    color:#0070ba;
+}
+
+.navbar-btn:nth-child(2) {
+    background-color: #0070ba;
+    color: #fff;
 }
 /* End of Section One */
