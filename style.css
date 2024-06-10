@@ -25,6 +25,7 @@ html {
     ),
     url(images/bg.jpg) center no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .navbar-wrapper {
@@ -134,4 +135,62 @@ html {
     background-color: #0070ba;
     color: #fff;
 }
+
+.banner {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
+
+.banner-heading {
+    font-size: 6rem;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.banner-paragraph {
+    font-size: 1.8rem;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto 4rem auto;
+}
+
+.blue-btn {
+    width: 35rem;
+    height: 5rem;
+    background-color: #0070ba;
+    color: #fff;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+/* unvisited link */
+.banner-paragraph a:link {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  /* visited link */
+  .banner-paragraph a:visited {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  /* mouse over link */
+  .banner-paragraph a:hover {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  .banner-paragraph a:active {
+    color: #fff;
+    font-weight: 600;
+  } 
 /* End of Section One */
