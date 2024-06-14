@@ -25,6 +25,10 @@ html {
   margin-bottom: 4rem;
   cursor: pointer;
 }
+
+#bluebtn:hover {
+  background-color: #005ea6 ;
+}
 /* End of Common Styles */
 
 /* Section 1 */
@@ -170,6 +174,10 @@ html {
   font-size: 1.4rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+#transparentbtn:hover {
+  color: #005ea6;
 }
 
 .navbar-btn:nth-child(1) {
