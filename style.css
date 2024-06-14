@@ -399,7 +399,7 @@ p.step-text {
 .section-4-heading {
   font-size: 5rem;
   font-weight: 300;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .features {
@@ -460,3 +460,32 @@ p.step-text {
   font-weight: 600;
 }
 /* End of section 4 */
+
+/* Section 5 */
+.section-5 {
+  width: 100%;
+  padding: 7rem 0;
+  background-color: #f7f9fa;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-5-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section-5-top-heading {
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+  color:#000;
+
+}
+/* End of Section 5 */
