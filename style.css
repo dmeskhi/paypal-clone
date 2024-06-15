@@ -134,6 +134,31 @@ html {
   flex-direction: column;
 }
 
+/* unvisited link */
+.nav-dropdown-item a:link {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* visited link */
+.nav-dropdown-item a:visited {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* mouse over link */
+.nav-dropdown-item a:hover {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* selected link */
+.nav-dropdown-item a:active {
+  color: #fff;
+  font-weight: 600;
+}
+
 .nav-dropdown-link-1 {
   font-size: 1.6rem;
   color: #fff;
@@ -524,6 +549,25 @@ p.step-text {
   color: #262626;
 }
 
+/* visited link */
+.footer-list a:visited {
+  color: #262626;
+  font-weight: 600;
+}
+
+/* mouse over link */
+.footer-list a:hover {
+  color: #262626;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* selected link */
+.footer-list a:active {
+  color: #262626;
+  font-weight: 600;
+}
+
 .footer-list-flag img {
   width: 2.8rem;
   opacity: 0.4;
@@ -539,6 +583,25 @@ p.step-text {
   color: #687173;
 }
 
+/* visited link */
+.footer-list-left a:visited {
+  color: #687173;
+  font-weight: 600;
+}
+
+/* mouse over link */
+.footer-list-left a:hover {
+  color: #687173;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* selected link */
+.footer-list-left a:active {
+  color: #687173;
+  font-weight: 600;
+}
+
 .footer-list-left li {
   margin-right: 2.5rem;
 }
@@ -551,6 +614,25 @@ p.step-text {
   font-size: 1.5rem;
   font-weight: 600;
   color: #687173;
+}
+
+/* visited link */
+.footer-list-right a:visited {
+  color: #687173;
+  font-weight: 600;
+}
+
+/* mouse over link */
+.footer-list-right a:hover {
+  color: #687173;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* selected link */
+.footer-list-right a:active {
+  color: #687173;
+  font-weight: 600;
 }
 
 .footer-list-right li {
@@ -573,6 +655,30 @@ p.step-text {
 .footer-bottom-credit {
   width: 65%;
   padding: 0.5rem 0 7rem 0;
+  font-size: 1rem;
+}
+
+.footer-bottom-credit a {
+  color: #005ea6;
+}
+
+/* visited link */
+.footer-bottom-credit a:visited {
+  color: #005ea6;
+  font-weight: 100;
+}
+
+/* mouse over link */
+.footer-bottom-credit a:hover {
+  color: #005ea6;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+/* selected link */
+.footer-bottom-credit a:active {
+  color: #005ea6;
+  font-weight: 100;
 }
 
 .footer-bottom-credit p {
@@ -581,3 +687,6 @@ p.step-text {
   color: #687173;
 }
 /* End of Section 5 */
+
+
+
