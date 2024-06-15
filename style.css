@@ -69,6 +69,13 @@ html {
   position: relative;
 }
 
+.paypal-logo img {
+  
+    width: 13.6rem;
+    height: 4.3rem;
+  
+}
+
 .dark-blue {
   color: #27346a;
 }
