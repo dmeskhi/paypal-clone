@@ -370,20 +370,36 @@ p.step-text {
     margin-bottom: 5rem;
 }
 
-.submenu {
+
+
+.submenu button {
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 5rem;
 }
 
-.buyers-link {
-    color: #666;
-    border-bottom: 0.1rem solid #666;
+.main-buyer-btn {
+  background: none!important;
+  border: none;
+  margin-right: 2rem;
+  color: #0070ba;
+  cursor: pointer;
 }
 
-.sellers-link {
-    color: #0070ba;
+.main-seller-btn {
+  background: none!important;
+  border: none;
+  color: #0070ba;
+  cursor: pointer;
 }
+
+.active {
+  color: #666;
+  border-bottom: 0.1rem solid #666;
+  padding: 0 0 1rem 0;
+}
+
+
 
 .buyers {
     display: flex;

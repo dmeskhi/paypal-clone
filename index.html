@@ -170,12 +170,12 @@
           
           
           <div id="subnav" class="submenu">
-            <a href="#main-buyer" class="buyers-link">For buyers</a> &nbsp;&nbsp;&nbsp;
-            <a href="#main-seller" class="sellers-link">For sellers</a>
+            <button class="main-buyer-btn tablink active" onclick="openBusiness(event,'main-buyer')">For buyers</button> &nbsp;&nbsp;&nbsp;
+            <button class="main-seller-btn tablink" onclick="openBusiness(event, 'main-seller')">For sellers</button>
           </div>
 
           <!-- Buyer content -->
-          <div id="main-buyer" class="buyers">
+          <div id="main-buyer" class="buyers business">
             <div class="buyer">
               <img src="images/paypal_signup.png" alt="PayPal Signup" />
 
@@ -230,6 +230,67 @@
             </div>
           </div>
           <!-- End of buyer content -->
+
+          <!-- Seller content -->
+          <div id="main-seller" class="buyers business" style="display: none;">
+            <div class="buyer">
+              <img src="images/business_account_setup.png" alt="Business Account" />
+
+              <div class="step-text-wrapper">
+                <p class="circle">1</p>
+                <p class="step-text">
+                  Set up a business account.
+                </p>
+
+              </div>
+            </div>
+
+            <div class="buyer">
+              <span class="arrow"></span>
+
+              <div class="step-text-wrapper">
+                <p>&nbsp;<br /></p>
+                <p>&nbsp;<br /></p>
+              </div>
+            </div>
+
+            <div class="buyer">
+              <img src="images/accept_payment_online_features.png" alt="Add Ways to Pay" />
+
+              <div class="step-text-wrapper">
+                <p class="circle">2</p>
+                <p class="step-text">
+                  Choose the features you want to start <br /> with. 
+                  You can go back, change or add to <br /> them later.
+                </p>
+              </div>
+            </div>
+
+            <div class="buyer">
+              <span class="arrow"></span>
+
+              <div class="step-text-wrapper">
+                <p>&nbsp;<br /></p>
+                <p>&nbsp;<br /></p>
+              </div>
+            </div>
+
+            <div class="buyer">
+              <img
+                src="images/paypal_button_code.png"
+                alt="PayPal Checkout"
+              />
+              <div class="step-text-wrapper">
+                <p class="circle">3</p>
+                <p class="step-text">
+                  Integrate PayPal via a partner, a<br /> 
+                  developer or by yourself.
+                 
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End of seller content -->
 
 
           

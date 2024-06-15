@@ -44,4 +44,27 @@ window.addEventListener("resize", () => {
 });
 // End of Navigation
 
+// function openBusiness(businessName) {
+//   let i;
+//   let x = document.getElementsByClassName("business");
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";  
+//   }
+//   document.getElementById(businessName).style.display = "flex";  
+// }
+
+function openBusiness(evt, businessName) {
+  let i, x, tablinks;
+  x = document.getElementsByClassName("business");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(businessName).style.display = "flex";
+  evt.currentTarget.className += " active";
+}
+
 
