@@ -44,15 +44,7 @@ window.addEventListener("resize", () => {
 });
 // End of Navigation
 
-// function openBusiness(businessName) {
-//   let i;
-//   let x = document.getElementsByClassName("business");
-//   for (i = 0; i < x.length; i++) {
-//     x[i].style.display = "none";  
-//   }
-//   document.getElementById(businessName).style.display = "flex";  
-// }
-
+// Buyer and Seller Tab select
 function openBusiness(evt, businessName) {
   let i, x, tablinks;
   x = document.getElementsByClassName("business");
@@ -66,5 +58,4 @@ function openBusiness(evt, businessName) {
   document.getElementById(businessName).style.display = "flex";
   evt.currentTarget.className += " active";
 }
-
-
+// End of Buyer and Seller Tab select

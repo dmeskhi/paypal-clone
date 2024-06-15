@@ -27,7 +27,7 @@ html {
 }
 
 #bluebtn:hover {
-  background-color: #005ea6 ;
+  background-color: #005ea6;
 }
 /* End of Common Styles */
 
@@ -264,122 +264,116 @@ html {
 
 /* Section 2 */
 .section-2 {
-    width: 100%;
-    padding: 10rem 0 15rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  padding: 10rem 0 15rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-2-heading {
-    font-size: 5rem;
-    font-weight: 300;
-    margin-bottom: 3rem;
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
 }
 
 .services {
-    display: flex;
+  display: flex;
 }
 
 .service {
-    width: 35rem;
-    text-align: center;
-    margin: 0 5rem;
+  width: 35rem;
+  text-align: center;
+  margin: 0 5rem;
 }
 
 .service i {
-    font-size: 6rem;
-    color: #0070ba;
-    margin: 2rem 0;
+  font-size: 6rem;
+  color: #0070ba;
+  margin: 2rem 0;
 }
 
 .service-heading {
-    font-size: 3rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 .service-paragraph {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-    line-height: 1.2;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  line-height: 1.2;
 }
 
 .service-btn {
-    width: 20rem;
-    padding: 1.5rem;
-    background-color: transparent;
-    border-radius: 3rem;
-    border: 0.1rem solid #0070ba;
-    color: #0070ba;
-    font-size: 1.5rem;
-    font-weight: bold;
-    cursor: pointer;
+  width: 20rem;
+  padding: 1.5rem;
+  background-color: transparent;
+  border-radius: 3rem;
+  border: 0.1rem solid #0070ba;
+  color: #0070ba;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* End of Section 2 */
 
 /* Section 3 */
 .section-3-heading {
-    font-size: 5rem;
-    font-weight: 300;
-    margin-bottom: 3rem;
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
 }
 
 .section-3 {
-    width: 100%;
-    padding: 10rem 0 15rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f7f9fa;
+  width: 100%;
+  padding: 10rem 0 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f9fa;
 }
 
-
-
-
-
 p.circle {
-    font-size: 1.5rem;
-    font-weight: 300;
-    width: 3.5rem;
-    height: 3.5rem;
-    border: 0.1rem solid #555;
-    border-radius: 50%;
-    margin-right: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 0.1rem solid #555;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p.step-text {
-    font-size: 1.5rem;
-    font-weight: 300;
-    text-align: left;
-    display: table-cell;
-    flex: 1;
-    height: 3rem;
-    padding: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: left;
+  display: table-cell;
+  flex: 1;
+  height: 3rem;
+  padding: 0;
 }
 
 .step-text-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 
-
-
 .submenu button {
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
 }
 
 .main-buyer-btn {
-  background: none!important;
+  background: none !important;
   border: none;
   margin-right: 2rem;
   color: #0070ba;
@@ -387,7 +381,7 @@ p.step-text {
 }
 
 .main-seller-btn {
-  background: none!important;
+  background: none !important;
   border: none;
   color: #0070ba;
   cursor: pointer;
@@ -399,19 +393,17 @@ p.step-text {
   padding: 0 0 1rem 0;
 }
 
-
-
 .buyers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buyer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 2rem;
 }
 
 .buyer img {
@@ -423,15 +415,15 @@ p.step-text {
   width: 3rem;
   height: 3rem;
   float: left;
-  box-shadow: -0.2rem 0.2rem 0 rgba(212, 217, 220, .5);
+  box-shadow: -0.2rem 0.2rem 0 rgba(212, 217, 220, 0.5);
   transform: rotate(225deg);
 }
 
 .buyer-paragraph {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-    line-height: 1.2;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  line-height: 1.2;
 }
 /* End of Section 3 */
 
@@ -470,7 +462,6 @@ p.step-text {
   width: max-content;
   font-size: 3rem;
   font-weight: 300;
-  
 }
 
 .feature-paragraph {
@@ -514,7 +505,6 @@ p.step-text {
 /* Section 5 */
 .section-5 {
   width: 100%;
-  
 }
 
 .section-5-top {
@@ -528,8 +518,7 @@ p.step-text {
   font-size: 3.5rem;
   font-weight: 100;
   margin-bottom: 1rem;
-  color:#000;
-
+  color: #000;
 }
 
 .footer {
@@ -552,12 +541,11 @@ p.step-text {
 
 .footer-list {
   display: flex;
-  
 }
 
 .footer-list li {
   margin-right: 2.5rem;
-} 
+}
 
 .footer-list a {
   font-size: 1.5rem;
@@ -703,6 +691,3 @@ p.step-text {
   color: #687173;
 }
 /* End of Section 5 */
-
-
-
