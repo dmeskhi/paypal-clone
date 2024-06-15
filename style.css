@@ -31,6 +31,10 @@ html {
 }
 /* End of Common Styles */
 
+.front-page {
+  display: none;
+}
+
 /* Section 1 */
 .section-1 {
   width: 100%;
