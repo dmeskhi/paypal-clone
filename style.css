@@ -578,6 +578,11 @@ p.step-text {
   opacity: 0.4;
 }
 
+.footer-list-flag-i img {
+  width: 2.8rem;
+  opacity: 0.4;
+}
+
 .footer-list-left {
   display: flex;
 }
@@ -709,7 +714,7 @@ p.step-text {
   flex-direction: column;
   align-items: center;
   border: 0.1rem solid #cfcfcf;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   padding: 3rem;
 }
 
@@ -797,7 +802,7 @@ p.step-text {
 .form-signup-btn {
   width: 37rem;
   height: 4.8rem;
-  margin: 1rem;
+  margin: 1rem 1rem 6rem 1rem;
   border-radius: 3rem;
   background-color: transparent;
   color: #262626;
@@ -812,5 +817,26 @@ p.step-text {
   color: #0070e0;
   border: 0.1rem solid #0070e0;
 
+}
+
+.footer-list-flag-i {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.footer-list-flag-i i {
+  font-size: 1.2rem;
+  margin: 0 1rem 0 0.4rem;  
+}
+
+.footer-list-flag-i li {
+  font-size: 1.6rem;
+  margin-right: 0.6rem;
+}
+
+.footer-list-flag-i a {
+  color: #555;
 }
 /* End of Login page */
