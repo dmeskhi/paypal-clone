@@ -438,8 +438,10 @@
         <div class="login-page-content">
           <span role="img" aria-label="PayPal Logo" class="login-page-logo"></span>
           <form class="login-page-form">
-            <input type="text" class="form-login-input"
-            placeholder="Email or mobile number">
+            <div class="input-group">
+              <input type="email" name="email" class="field" required />
+              <label class="input-label">Email or mobile number</label>
+            </div>
             <a href="#" class="form-login-link">Forgot email?</a>
             <input type="button" id="form-btn" class="form-login-btn" value="Next">
             <span>or</span>
