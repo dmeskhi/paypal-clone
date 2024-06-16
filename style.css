@@ -703,6 +703,7 @@ p.step-text {
   width: 100%;
   height: 100vh;
   position: relative;
+  display: none;
 }
 
 .login-page-content {
@@ -884,3 +885,81 @@ p.step-text {
   color: #555;
 }
 /* End of Login page */
+
+/* Sign up page */
+.signup-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-page-top {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.1rem solid #fff3;
+  box-shadow: 0 0 1rem 0.1rem #0003, 
+  0 0 1rem 0.1rem #fff3;
+}
+
+.signup-page-top-content {
+  width: 120rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-page-top-content button {
+  width: 8rem;
+  padding: 0.7rem;
+  background-color: transparent;
+  border: 0.1rem solid #0070e0;
+  color: #0070e0;
+  border-radius: 3rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer
+}
+
+.signup-page-content {
+  width: 120rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-page-content-left {
+  width: 60%;
+  margin-top: 3.5rem;
+  border-right: 0.1rem solid #b1b1b1;
+  padding: 3rem 3rem 3rem 0;
+}
+
+.signup-page-content-left h1 {
+ font-size: 4rem;
+ font-weight: 300;
+ color: #333;
+ line-height: 1.1;
+}
+
+.signup-page-content-right {
+  width: 40%;
+  padding: 3rem 0 3rem 3rem;
+}
+
+.content-left-images {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.content-left-images img {
+  width: 18rem;
+  border-radius: 50%;
+  border: 1.5rem solid #ccc;
+  margin-right: 5rem;
+}
+/* End of sign up page */
