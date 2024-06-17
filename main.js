@@ -32,9 +32,9 @@ if (window.innerWidth < 1000) {
   const navbar = document.querySelector(".navbar");
 
   menuIcon.addEventListener("click", () => {
-    navbar.classList.toggle("change");
+    navbar.classList.toggle(".change");
 
-    if (!navbar.classList.contains("change")) {
+    if (!navbar.classList.contains(".change")) {
       document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
         dropdown.style.left = "-20rem";
       });
