@@ -106,6 +106,10 @@ html {
   display: flex;
 }
 
+.menu {
+  display: none;
+}
+
 .nav-list-item {
   height: 8rem;
   padding: 2rem;
@@ -141,6 +145,11 @@ html {
   margin: 2rem 10rem;
   display: flex;
   flex-direction: column;
+}
+
+.dropdown-heading {
+  display: none;
+
 }
 
 /* unvisited link */
@@ -195,9 +204,7 @@ html {
   transition: transform 0.3s;
 }
 
-.nav-list-item:hover .nav-list-link i {
-  transform: rotateZ(180deg);
-}
+
 
 .navbar-btn {
   width: 8rem;
@@ -1436,6 +1443,10 @@ p.step-text {
     margin: 1rem 1rem 0 1rem;
   }
 
+  .dropdown-heading {
+    display: block;
+  }
+
   .dropdown-heading a {
     font-size: 1.6rem;
     text-transform: uppercase;
@@ -1485,5 +1496,139 @@ p.step-text {
     margin-left: auto;
   }
 
+  .section-2-heading {
+    font-size: 4rem;
+  }
+
+  .section-3-heading {
+    font-size: 4rem;
+  }
+
+  .section-4-heading {
+    font-size: 4rem;
+  }
+
+  .service-heading {
+    font-size: 2.5rem;
+  }
+
+  .features {
+    width: 95%;
+  }
+
+  .feature {
+    padding: 0 1.5rem;
+  }
+
+  .footer-top {
+    flex-direction: column-reverse;
+    align-items: left;
 }
+
+.footer-bottom {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-list-right li {
+  margin-left: 0;
+  margin-right: 2.5rem;
+}
+
+.signup-footer {
+  padding: 1rem 0 3rem 0;;
+}
+
+.signup-footer-top {
+  flex-direction: column-reverse;
+  align-items: left;
+}
+
+.signup-footer-bottom {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.signup-footer-list-right li {
+  margin-left: 0;
+  margin-right: 2.5rem;
+}
+
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 45%;
+  }
+
+  .section-2 {
+    padding: 10rem 0;
+  }
+
+  .section-2-heading {
+    width: 80%;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .services {
+    width: 95%;
+  }
+
+  .service {
+    width: 30rem;
+    margin: 0 2rem;
+  }
+
+  .service i {
+    font-size: 4rem;
+  }
+
+  .service-btn {
+    width: 15rem;
+    padding: 1rem;
+  }
+
+  .service-heading {
+    font-size: 1.8rem;
+  }
+
+  .features {
+    width: 100%;
+  }
+
+  .feature {
+    width: 50%;
+    padding: 0 4rem;
+  }
+
+  .signup-page-top-content {
+    width: 95rem;
+  }
+}
+
+@media (max-width: 550px) {
+   .navbar-logo {
+    display: none;
+   }
+
+   .banner-heading {
+    font-size: 4.5rem;
+   }
+
+   .banner-paragraph {
+    line-height: 1.2;
+   }
+
+   .services {
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .service {
+    width: 60%;
+    margin-bottom: 4rem;
+   }
+}
+  
 /* End of responsive */
