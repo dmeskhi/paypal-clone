@@ -730,11 +730,11 @@ p.step-text {
 
 .login-page-logo {
   background: transparent url(images/paypal-mark-color.svg) top center no-repeat;
-    width: 3.4rem;
-    height: 4rem;
-    margin-bottom: 1.2rem;
-    display: block;
-    cursor: pointer;
+  width: 3.4rem;
+  height: 4rem;
+  margin-bottom: 1.2rem;
+  display: block;
+  cursor: pointer;
 }
 
 .login-page-form {
@@ -871,7 +871,6 @@ p.step-text {
   background-color: transparent;
   color: #0070e0;
   border: 0.1rem solid #0070e0;
-
 }
 
 .footer-list-flag-i {
@@ -883,7 +882,7 @@ p.step-text {
 
 .footer-list-flag-i i {
   font-size: 1.2rem;
-  margin: 0 1rem 0 0.4rem;  
+  margin: 0 1rem 0 0.4rem;
 }
 
 .footer-list-flag-i li {
@@ -913,8 +912,7 @@ p.step-text {
   justify-content: center;
   align-items: center;
   border-bottom: 0.1rem solid #fff3;
-  box-shadow: 0 0 1rem 0.1rem #0003, 
-  0 0 1rem 0.1rem #fff3;
+  box-shadow: 0 0 1rem 0.1rem #0003, 0 0 1rem 0.1rem #fff3;
 }
 
 .signup-page-top-content {
@@ -934,7 +932,7 @@ p.step-text {
   border-radius: 3rem;
   font-size: 1.3rem;
   font-weight: 600;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .signup-page-content {
@@ -952,10 +950,10 @@ p.step-text {
 }
 
 .signup-page-content-left h1 {
- font-size: 4rem;
- font-weight: 300;
- color: #333;
- line-height: 1.1;
+  font-size: 4rem;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.1;
 }
 
 .signup-page-content-right {
@@ -1000,7 +998,7 @@ p.step-text {
   font-size: 1.5rem;
 }
 
-.input-group input[type="radio"]{
+.input-group input[type="radio"] {
   width: 30%;
   height: 2rem;
   margin: 0.5rem 1rem 0 -1.5rem;
@@ -1197,5 +1195,230 @@ p.step-text {
   font-weight: 100;
   color: #687173;
 }
-
 /* End of sign up page */
+
+/* Responsive */
+@media (max-width: 1920px) {
+  .navbar-logo span.logo-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .nav-dropdown {
+    padding: 0 25rem;
+  }
+
+  .nav-dropdown-item {
+    margin: 2rem 6rem;
+  }
+
+  .features {
+    width: 80%;
+  }
+
+  .feature {
+    padding: 0 3rem;
+  }
+
+  .signup-page {
+    width: 100%;
+    height: 55vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.1rem solid #b1b1b1;
+  }
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 55%;
+  }
+
+  .navbar {
+    width: 100rem;
+  }
+
+  .section-1 {
+    height: 70vh;
+  }
+
+  .banner-paragraph {
+    width: 70%;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .features {
+    width: 90%;
+  }
+
+  .signup-page {
+    width: 100%;
+    height: 80vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.1rem solid #b1b1b1;
+  }
+}
+
+@media (max-width: 1200px) {
+  .signup-page {
+    width: 100%;
+    height: 80vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.1rem solid #fff;
+  }
+
+  .signup-page-top {
+    width: 100%;
+  }
+
+  .signup-page-content {
+    width: 90rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup-page-content-left {
+    width: 100%;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.1rem solid #b1b1b1;
+  }
+
+  .signup-page-content-right {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .input-group input[type="radio"] {
+    width: 10%;
+    margin: 0.5rem 0 0 -3rem;
+  }
+
+  .signup-blue-btn {
+    width: 100%;
+    margin: 3rem 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav-dropdown-item {
+    margin: 2rem 3.4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 0 5rem;
+  }
+
+  .navbar-logo span.logo {
+    display: none;
+  }
+
+  .navbar-logo span.logo-1{
+    display: block;
+  }
+
+  .menu {
+    width: 12rem;
+    height: 4rem;
+    background-color: transparent;
+    border-radius: 3rem;
+    border: 0.1rem solid #0070ba;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(16rem);
+  }
+
+  .menu-icon {
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .line {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: #0070ba;
+  }
+
+  .menu span {
+    font-size: 1.8rem;
+    color: #0070ba;
+  }
+
+  .nav-list, .nav-dropdown-personal {
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 100vh;
+    background-color: #012169;
+    flex-direction: column;
+    padding-top: 2rem;
+    border-right: 0.1rem solid #fff;
+    z-index: 200;
+  }
+
+  .nav-dropdown-personal {
+    opacity: 1;
+    visibility: visible;
+    padding: 1rem;
+    justify-content: flex-start;
+  }
+
+  .nav-dropdown-link-2 {
+    display: none;
+  }
+
+  .nav-list-item {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+    margin: 0.4rem 0;
+  }
+
+  .nav-list-link {
+    font-size: 1.4rem;
+    color: #fff;
+  }
+
+  .nav-list-item i {
+    font-size: 1.2rem;
+    transform: rotate(-90deg);
+  }
+
+  .nav-list-item:hover {
+    border-bottom: 0.5rem solid #012169;
+  }
+
+  .nav-dropdown {
+    border-bottom: none;
+  }
+
+  .nav-dropdown-business {
+    display: none;
+  }
+}
+/* End of responsive */
