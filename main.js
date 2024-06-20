@@ -27,12 +27,12 @@ document.querySelectorAll(".signup").forEach((signupBtn) => {
 // Navigation
 const dropdownItems = document.querySelectorAll(".dropdown-hover");
 
-if (window.innerWidth < 1000) {
+if (window.innerWidth < 1001) {
   const menuIcon = document.querySelector(".menu");
   const navbar = document.querySelector(".navbar");
 
   menuIcon.addEventListener("click", () => {
-    navbar.classList.toggle(".change");
+    navbar.classList.toggle("change");
 
     if (!navbar.classList.contains(".change")) {
       document.querySelectorAll(".nav-dropdown").forEach((dropdown) => {
@@ -68,6 +68,8 @@ if (window.innerWidth < 1000) {
 window.addEventListener("resize", () => {
   window.location.reload();
 });
+
+
 // End of Navigation
 
 // Buyer and Seller Tab select

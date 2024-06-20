@@ -1328,6 +1328,13 @@ p.step-text {
     padding: 0 5rem;
   }
 
+  .navbar-logo {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .navbar-logo span.logo {
     display: none;
   }
@@ -1346,6 +1353,15 @@ p.step-text {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    transition: transform 0.6s cubic-bezier(1,0,0,1);
+  }
+
+  .change .menu {
+    transform: translateX(16rem);
+    position: fixed;
+    top: 2rem;
+    left: 6rem;
+    background-color: #005ea6;
   }
 
   .menu-icon {
@@ -1359,11 +1375,31 @@ p.step-text {
     width: 2rem;
     height: 0.1rem;
     background-color: #0070ba;
+    transform-origin: left;
+  }
+
+  .change .line-1 {
+    transform: rotate(45deg);
+    background-color: #fff;
+  }
+
+  .change .line-2 {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .change .line-3 {
+    transform: rotate(-45deg);
+    background-color: #fff;
   }
 
   .menu span {
     font-size: 1.8rem;
     color: #0070ba;
+  }
+
+  .change .menu span {
+    color: #fff;
   }
 
   .nav-list,
@@ -1380,6 +1416,11 @@ p.step-text {
     padding-top: 2rem;
     border-right: 0.1rem solid #fff;
     z-index: 200;
+    transition: left 0.6s cubic-bezier(1,0,0,1);
+  }
+
+  .change .nav-list {
+    left: 0;
   }
 
   .nav-dropdown-personal,
@@ -1438,6 +1479,10 @@ p.step-text {
 
   .nav-dropdown {
     border-bottom: none;
+  }
+
+  .navbar-buttons {
+    margin-left: auto;
   }
 
 }
